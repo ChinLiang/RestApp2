@@ -16,7 +16,7 @@ import org.apache.http.impl.client.HttpClientBuilder;
 
 public class HttpGetClient {
 	private final static String URL_SECURED_BY_BASIC_AUTHENTICATION = "http://localhost:7001/RestApp2/rest/msg/get/3";
-	private final static String USER = "weblogic2";
+	private final static String USER = "weblogic";
 	private final static String PASSWORD = "weblogic15";
 
 	public static void main(String a[]) {

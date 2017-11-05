@@ -12,12 +12,12 @@ import com.chincent.rest.service.MessageService;
  
 @ApplicationPath("/rest")
 public class MyApplication extends Application {
-//	public class MyApplication  {
-    public Set<Class<?>> getClasses() {
-        Set<Class<?>> s = new HashSet<Class<?>>();
-//        s.add(com.chincent.rest.service.MessageService.class);
-        s.add(JaxRsFilterAuthentication.class);
-        s.add(MessageService.class);
-        return s;
-    }
+////	public class MyApplication  {
+//    public Set<Class<?>> getClasses() {
+//        Set<Class<?>> s = new HashSet<Class<?>>();
+////        s.add(com.chincent.rest.service.MessageService.class);
+//        s.add(JaxRsFilterAuthentication.class);
+//        s.add(MessageService.class);
+//        return s;
+//    }
 }
